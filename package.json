@@ -1,0 +1,30 @@
+{
+  "name": "dat-tester",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape test/*.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joehand/dat-tester.git"
+  },
+  "author": "Joe Hand <joe@hand.email> (https://joeahand.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joehand/dat-tester/issues"
+  },
+  "homepage": "https://github.com/joehand/dat-tester#readme",
+  "dependencies": {
+    "archiver-server": "^2.1.0",
+    "dat-encoding": "^4.0.1",
+    "dat-next": "^2.0.1",
+    "debug": "^2.6.0",
+    "hypercore-archiver": "^3.2.3",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1",
+    "nanobench": "^1.0.3",
+    "rimraf": "^2.5.4"
+  }
+}
